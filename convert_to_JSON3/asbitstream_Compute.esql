@@ -5,7 +5,7 @@ CREATE COMPUTE MODULE asbitstream_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
-		Set OutputRoot.JSON.Data.Details=InputRoot.XMLNSC.Details;
+		Set OutputRoot.JSON.Data.Detail=InputRoot.XMLNSC.Details;
 		RETURN TRUE;
 	END;
 
